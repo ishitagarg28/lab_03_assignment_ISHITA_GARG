@@ -31,6 +31,7 @@ class EmployeeTable:
                     results.append(record)
         return results
 
+# data
     def print_records(self, records):
         if not records:
             print("No records found.")
